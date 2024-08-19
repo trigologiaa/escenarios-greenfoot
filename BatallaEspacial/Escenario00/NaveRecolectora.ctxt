@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=NaveRecolectora
+comment1.params=
+comment1.target=NaveRecolectora()
+comment1.text=\n\ post\:\ Inicializa\ una\ NaveRecolectora,\ con\ suficiente\ carga\ para\ moverse.\ No\n\ se\ inicia\ con\ {@link\ \#obtenerCombustibleMaximo()}\n
+comment2.params=
+comment2.target=int\ obtenerConsumoPorMovimiento()
+comment2.text=\n\ {@inheritDoc}\n
+comment3.params=
+comment3.target=int\ obtenerCombustibleMaximo()
+comment3.text=\n\ {@inheritDoc}\n
+comment4.params=direccion
+comment4.target=void\ avanzarHacia(Direccion)
+comment4.text=\n\ @see\ NaveAliada\#moverHacia(Direccion)\n
+comment5.params=direccion
+comment5.target=void\ recolectarDesde(Direccion)
+comment5.text=\n\ post\:\ el\ {@link\ NaveAliada\#combustible}\ se\ incrementar\u00E1\ en\ la\ mayor\ cantidad\n\ que\ pueda\ extraer\ <br>\n\ post\:\ consumir\u00E1\ {@link\ \#obtenerConsumoPorMovimiento()}\ al\ realizar\ la\n\ extracci\u00F3n\n\ \n\ @param\ direccion\ es\ la\ direcci\u00F3n\ desde\ la\ cual\ intentar\u00E1\ recolectar\n
+comment6.params=direccion\ cantidad
+comment6.target=void\ recolectarDesde(Direccion,\ int)
+comment6.text=\n\ pre\:\ la\ nave\ debe\ tener\ {@link\ NaveAliada\#combustible}\ disponible\ para\ operar\n\ el\ sistema\ de\ recolecci\u00F3n\ <br>\n\ post\:\ el\ {@link\ NaveAliada\#combustible}\ se\ incrementar\u00E1\ en\ la\ mayor\ cantidad\n\ que\ pueda\ extraer\ <br>\n\ post\:\ consumir\u00E1\ {@link\ \#obtenerConsumoPorMovimiento()}\ al\ realizar\ la\n\ extracci\u00F3n\n\ \n\ @param\ direccion\ es\ la\ direcci\u00F3n\ desde\ la\ cual\ intentar\u00E1\ recolectar\n\ @param\ cantidad\ \ es\ la\ cantidad\ a\ recolectar.\ Se\ limitar\u00E1\ autom\u00E1ticamente\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ seg\u00FAn\ el\ or\u00EDgen\ de\ recolecci\u00F3n\ y\ la\ capacidad\ total\ de\ carga\n
+comment7.params=direccion\ cantidad
+comment7.target=void\ transferirCombustibleHacia(Direccion,\ int)
+comment7.text=\n\ pre\:\ la\ nave\ debe\ tener\ {@link\ NaveAliada\#combustible}\ disponible\ para\ operar\n\ el\ sistema\ de\ transferencia\ <br>\n\ post\:\ el\ {@link\ NaveAliada\#combustible}\ se\ decrementar\u00E1\ de\ acuerdo\ a\ las\n\ existencias\ y\ la\ cantidad\ solicitada\ <br>\n\ post\:\ la\ cantidad\ de\ combustible\ disponible\ disminuir\u00E1\ de\ acuerdo\ a\ la\n\ cantidad\ que\ transfiera\n\ \n\ @param\ direccion\ es\ la\ direcci\u00F3n\ hacia\ la\ cual\ transferir\ el\ combustible\n\ @param\ cantidad\ \ es\ la\ cantidad\ que\ se\ desea\ transferir.\ Se\ ver\u00E1\ limitada\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ autom\u00E1ticamente\ por\ las\ existencias\ y\ la\ capacidad\ de\ carga\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ de\ la\ NaveAliada\ destino\n
+numComments=8

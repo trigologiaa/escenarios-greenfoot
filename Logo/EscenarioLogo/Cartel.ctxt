@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Cartel
+comment1.params=
+comment1.target=Cartel()
+comment2.params=
+comment2.target=void\ reset()
+comment3.params=
+comment3.target=void\ contarPaso()
+comment4.params=distancia
+comment4.target=void\ contarDistancia(int)
+comment5.params=
+comment5.target=void\ updateImage()
+numComments=6

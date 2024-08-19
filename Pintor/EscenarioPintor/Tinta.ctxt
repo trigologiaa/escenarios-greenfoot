@@ -1,0 +1,6 @@
+#BlueJ class context
+comment0.target=Tinta
+comment0.text=\n\ Representa\ los\ colores\ para\ el\ EscenarioPintor\n
+comment1.params=color
+comment1.target=Tinta(greenfoot.Color)
+numComments=2

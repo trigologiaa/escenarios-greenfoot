@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Layout
+comment1.params=orientation\ size\ origin
+comment1.target=Layout(Orientation,\ Point,\ Point)
+comment2.params=h
+comment2.target=Point\ hexToPixel(Hex)
+comment3.params=p
+comment3.target=FractionalHex\ pixelToHex(Point)
+comment4.params=corner
+comment4.target=Point\ hexCornerOffset(int)
+comment5.params=h
+comment5.target=java.util.ArrayList\ polygonCorners(Hex)
+numComments=6

@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Lienzo
+comment0.text=\n\ El\ Lienzo\ concreto,\ que\ se\ utilizar\u00E1\ para\ ejercitar\n
+comment1.params=
+comment1.target=Lienzo()
+comment1.text=\n\ Construye\ un\ lienzo.\ Se\ utiliza\ para\ configurar\ el\ tama\u00F1o\n
+comment2.params=
+comment2.target=void\ mostrarAyudas()
+comment2.text=\n\ {@inheritDoc}\n
+numComments=3

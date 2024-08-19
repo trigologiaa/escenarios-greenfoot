@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=NaveEnemiga
+comment0.text=\n\ Define\ las\ caracter\u00EDsticas\ y\ comportamiento\ base\ de\ una\ NaveEnemiga.\ Las\n\ Naves\ de\ esta\ facci\u00F3n\ no\ funcionan\ con\ combustible,\ sino\ con\ gravitrones.\ Es\n\ por\ ello\ que\ no\ tienen\ tanque\ sino\ un\ estado\ de\ salud\n
+comment1.params=direccion
+comment1.target=NaveEnemiga(Direccion)
+comment1.text=\n\ post\:\ se\ inicia\ una\ NaveEnemiga\ en\ la\ direcci\u00F3n\ deseada\n\ \n\ @param\ direccion\ la\ direcci\u00F3n\ en\ la\ que\ apuntar\u00E1\ la\ NaveEnemiga\n
+comment2.params=
+comment2.target=double\ obtenerProporcionDeBarraIndicadora()
+comment2.text=\n\ {@inheritDoc}\n
+comment3.params=atacante
+comment3.target=void\ recibirDa\u00F1oDe(Atacante)
+comment3.text=\n\ post\:\ la\ NaveEnemiga\ reducir\u00E1\ su\ {@link\ \#salud}\ conforme\ la\ potencia\ del\n\ ataque.\ <br>\n\ post\:\ la\ NaveEnemiga\ ser\u00E1\ eliminada\ del\ tablero\ si\ su\ {@link\ \#salud}\ llega\ a\n\ 0.\ <br>\n\ \n\ @see\ Da\u00F1able\#recibirDa\u00F1oDe(Atacante)\n
+comment4.params=
+comment4.target=greenfoot.Color\ obtenerColorDeBarraIndicadora()
+comment4.text=\n\ {@inheritDoc}\n
+comment5.params=
+comment5.target=boolean\ puedeActuar()
+comment5.text=\n\ Una\ NaveEnemiga\ no\ tiene\ restricciones\ de\ combustible,\ por\ lo\ que\ puede\n\ actuar\ siempre\n\ \n\ @return\ {@code\ true}\n
+numComments=6

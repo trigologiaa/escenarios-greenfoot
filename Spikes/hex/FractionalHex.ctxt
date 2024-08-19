@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=FractionalHex
+comment1.params=q\ r\ s
+comment1.target=FractionalHex(double,\ double,\ double)
+comment2.params=
+comment2.target=Hex\ hexRound()
+comment3.params=b\ t
+comment3.target=FractionalHex\ hexLerp(FractionalHex,\ double)
+comment4.params=a\ b
+comment4.target=java.util.ArrayList\ hexLinedraw(Hex,\ Hex)
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6

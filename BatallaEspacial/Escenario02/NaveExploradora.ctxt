@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=NaveExploradora
+comment0.text=\n\ Define\ el\ tipo\ de\ Nave\ m\u00E1s\ elemental\ de\ la\ Batalla\ Espacial.\ S\u00F3lo\ puede\n\ explorar\ mediante\ ordenes\ simples,\ y\ no\ tiene\ conocimiento\ del\ entorno\n
+comment1.params=
+comment1.target=void\ moverAlNorte()
+comment1.text=\n\ pre\:\ el\ casillero\ hacia\ {@link\ Direccion\#NORTE}\ est\u00E1\ disponible\ para\ ser\n\ ocupado\ <br>\n\ post\:\ La\ NaveExploradora\ se\ mueve\ en\ {@link\ Direccion\#NORTE}\n
+comment2.params=
+comment2.target=void\ moverAlEste()
+comment2.text=\n\ pre\:\ el\ casillero\ hacia\ {@link\ Direccion\#ESTE}\ est\u00E1\ disponible\ para\ ser\n\ ocupado\ <br>\n\ post\:\ La\ NaveExploradora\ se\ mueve\ en\ {@link\ Direccion\#ESTE}\n
+comment3.params=
+comment3.target=void\ moverAlOeste()
+comment3.text=\n\ pre\:\ el\ casillero\ hacia\ {@link\ Direccion\#OESTE}\ est\u00E1\ disponible\ para\ ser\n\ ocupado\ <br>\n\ post\:\ La\ NaveExploradora\ se\ mueve\ en\ {@link\ Direccion\#OESTE}\n
+comment4.params=
+comment4.target=void\ moverAlSur()
+comment4.text=\n\ pre\:\ el\ casillero\ hacia\ {@link\ Direccion\#SUR}\ est\u00E1\ disponible\ para\ ser\n\ ocupado\ <br>\n\ post\:\ La\ NaveExploradora\ se\ mueve\ en\ {@link\ Direccion\#SUR}\n
+comment5.params=
+comment5.target=int\ obtenerCombustible()
+comment5.text=\n\ {@inheritDoc}\n
+comment6.params=
+comment6.target=int\ obtenerCombustibleMaximo()
+comment6.text=\n\ {@inheritDoc}\n
+comment7.params=
+comment7.target=int\ obtenerConsumoPorMovimiento()
+comment7.text=\n\ {@inheritDoc}\n
+numComments=8

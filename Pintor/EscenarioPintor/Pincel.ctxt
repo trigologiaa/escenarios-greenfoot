@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Pincel
+comment0.text=\n\ El\ Pincel\ concreto,\ que\ se\ utilizar\u00E1\ para\ ejercitar\n
+comment1.params=
+comment1.target=void\ pintar()
+comment1.text=\n\ Establece\ un\ algoritmo\ para\ pintar\ el\ lienzo.\ Cambiar\ el\ c\u00F3digo\ o\ crear\ un\n\ nuevo\ pincel\ siguiendo\ este\ ejemplo\n
+numComments=2

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=TortugaVerde
+comment1.params=
+comment1.target=void\ adelante()
+comment2.params=
+comment2.target=void\ atras()
+comment3.params=
+comment3.target=int\ pasos()
+comment4.params=
+comment4.target=void\ derecha()
+comment5.params=
+comment5.target=void\ izquierda()
+numComments=6

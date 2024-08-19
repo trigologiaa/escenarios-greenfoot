@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=TortugaAmarilla
+comment1.params=
+comment1.target=TortugaAmarilla()
+comment10.params=
+comment10.target=void\ subirLapiz()
+comment11.params=
+comment11.target=void\ bajarLapiz()
+comment2.params=
+comment2.target=void\ comenzarRecuerdo()
+comment3.params=
+comment3.target=void\ finalizarRecuerdo()
+comment4.params=
+comment4.target=void\ borrarRecuerdo()
+comment5.params=
+comment5.target=void\ ejecutarRecuerdo()
+comment6.params=pasos
+comment6.target=void\ adelante(int)
+comment7.params=pasos
+comment7.target=void\ atras(int)
+comment8.params=grados
+comment8.target=void\ derecha(int)
+comment9.params=grados
+comment9.target=void\ izquierda(int)
+numComments=12

@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=PincelBase
+comment0.text=\n\ Representaci\u00F3n\ de\ los\ pinceles\ en\ el\ EscenarioPintor\n
+comment1.params=
+comment1.target=PincelBase()
+comment1.text=\n\ Construye\ un\ Pincel\ por\ defecto,\ color\ Tinta.LILA\n
+comment2.params=tinta
+comment2.target=PincelBase(Tinta)
+comment2.text=\n\ Permite\ construir\ un\ Pincel\ con\ tinta\ de\ alg\u00FAn\ color\n
+comment3.params=world
+comment3.target=void\ addedToWorld(greenfoot.World)
+comment3.text=\n\ Dibuja\ el\ pincel,\ en\ escala\ con\ el\ escenario\n
+comment4.params=
+comment4.target=void\ pintar()
+comment4.text=\n\ Punto\ de\ extensi\u00F3n\ para\ escribir\ el\ algoritmo\ de\ pintado\n
+comment5.params=i\ j
+comment5.target=void\ pintar(int,\ int)
+comment5.text=\n\ Pinta\ una\ celda.\ Es\ el\ m\u00E9todo\ que\ hay\ que\ utilizar\ desde\ el\ Pincel\ concreto\n\ que\ se\ cree.\ <br>\n\ post\:\ La\ celda\ (i,\ j)\ recibir\u00E1\ una\ capa\ de\ pintura\n
+comment6.params=
+comment6.target=int\ obtenerTama\u00F1oDelLienzo()
+comment6.text=\n\ @return\ el\ tama\u00F1o\ del\ lienzo\n
+numComments=7

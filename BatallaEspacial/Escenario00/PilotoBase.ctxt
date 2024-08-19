@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=PilotoBase
+comment0.text=\n\ Define\ el\ comportamiento\ base\ para\ todos\ los\ Pilotos\ de\ la\ Batalla\ Espacial\n
+comment1.params=nave
+comment1.target=void\ subirse(NaveDeAtaque)
+comment1.text=\n\ post\:\ El\ Piloto\ se\ sube\ a\ la\ Nave\n\ \n\ @param\ nave\ es\ la\ Nave\ a\ la\ que\ se\ subir\u00E1\ el\ piloto\n
+comment2.params=
+comment2.target=void\ bajarse()
+comment2.text=\n\ post\:\ El\ Piloto\ deja\ la\ Nave\n
+comment3.params=
+comment3.target=void\ actualizarImagen()
+comment3.text=\n\ Actualiza\ la\ imagen\ del\ Piloto,\ de\ acuerdo\ a\ su\ estado\n
+numComments=4

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Mundo
+comment1.params=
+comment1.target=Mundo()
+comment10.params=tortuga
+comment10.target=void\ cambiarTortugaAnteriorPor(Tortuga)
+comment2.params=
+comment2.target=void\ limpiar()
+comment3.params=
+comment3.target=void\ pintarFondo()
+comment4.params=
+comment4.target=void\ dibujarGrilla()
+comment5.params=
+comment5.target=void\ usarTortugaVerde()
+comment6.params=
+comment6.target=void\ usarTortugaRoja()
+comment7.params=
+comment7.target=void\ usarTortugaAmarilla()
+comment8.params=
+comment8.target=void\ usarTortugaAzul()
+comment9.params=tortuga
+comment9.target=void\ reiniciar(Tortuga)
+numComments=11

@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=LienzoBase
+comment0.text=\n\ Modela\ la\ base\ para\ los\ Lienzos\n
+comment1.params=ancho\ alto
+comment1.target=LienzoBase(int,\ int)
+comment1.text=\n\ Inicializa\ un\ Mundo\ con\ un\ tama\u00F1o\ de\ celda\ de\n\ {@value\ \#TAMA\u00D1O_DE_CELDA_POR_DEFECTO}\n\ \n\ @param\ ancho\ el\ ancho\ del\ mundo\n\ @param\ alto\ \ el\ alto\ del\ mundo\n
+comment2.params=ancho\ alto\ tama\u00F1oCelda
+comment2.target=LienzoBase(int,\ int,\ int)
+comment2.text=\n\ Inicializa\ un\ Mundo\ con\ un\ tama\u00F1o\ de\ celda\ variable\n\ \n\ @param\ ancho\ \ \ \ \ \ \ el\ ancho\ del\ mundo\n\ @param\ alto\ \ \ \ \ \ \ \ el\ alto\ del\ mundo\n\ @param\ tama\u00F1oCelda\ el\ tama\u00F1o\ de\ la\ celda\ definido\n
+comment3.params=
+comment3.target=void\ generarGrilla()
+comment3.text=\n\ Estandarizaci\u00F3n\ de\ la\ grilla\ visual\ y\ el\ sombreado\ de\ casillas\ intermedias\n
+comment4.params=
+comment4.target=void\ mostrarAyudas()
+comment4.text=\n\ Permite\ mostrar\ la\ coordenada\ de\ cada\ celda,\ para\ ayudar\ a\ pensar\ los\n\ algoritmos\ de\ pintado\n
+comment5.params=x\ y\ color
+comment5.target=void\ marcarCelda(int,\ int,\ greenfoot.Color)
+comment5.text=\n\ Permite\ marcar\ una\ celda\ de\ un\ Color\ determinado\n\ \n\ @param\ x\ \ \ \ \ la\ posici\u00F3n\ de\ la\ celda\ en\ x\n\ @param\ y\ \ \ \ \ la\ posici\u00F3n\ de\ la\ celda\ en\ y\n\ @param\ color\ el\ color\ con\ el\ que\ se\ marcar\u00E1\ la\ celda\n
+numComments=6

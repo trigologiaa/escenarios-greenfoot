@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=TortugaRoja
+comment1.params=pasos
+comment1.target=void\ adelante(int)
+comment2.params=pasos
+comment2.target=void\ atras(int)
+comment3.params=grados
+comment3.target=void\ derecha(int)
+comment4.params=grados
+comment4.target=void\ izquierda(int)
+comment5.params=
+comment5.target=void\ subirLapiz()
+comment6.params=
+comment6.target=void\ bajarLapiz()
+numComments=7

@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Howard
+comment1.params=nave
+comment1.target=void\ probarNave(NaveDeAtaque)
+comment2.params=nave
+comment2.target=void\ probarNave2(NaveDeAtaque)
+comment3.params=nave
+comment3.target=void\ despegar(NaveDeAtaque)
+comment4.params=nave
+comment4.target=void\ maniobrar(NaveDeAtaque)
+comment5.params=nave
+comment5.target=void\ aterrizar(NaveDeAtaque)
+numComments=6

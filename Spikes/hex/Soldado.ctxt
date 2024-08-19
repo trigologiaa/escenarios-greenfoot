@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Soldado
+comment0.text=\n\ Write\ a\ description\ of\ class\ Soldado\ here.\n\ \n\ @author\ (your\ name)\ \n\ @version\ (a\ version\ number\ or\ a\ date)\n
+comment1.params=
+comment1.target=Hex\ obtenerPosicion()
+comment2.params=
+comment2.target=Layout\ getLayout()
+comment3.params=direccion
+comment3.target=void\ avanzarHacia(Direccion)
+comment4.params=
+comment4.target=void\ actualizarImagen()
+comment5.params=direccion
+comment5.target=void\ setDireccion(Direccion)
+comment6.params=world
+comment6.target=void\ addedToWorld(greenfoot.World)
+numComments=7
