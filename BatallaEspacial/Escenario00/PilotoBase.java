@@ -11,6 +11,7 @@ public abstract class PilotoBase extends ActorBase {
      * La nave que pilotará
      */
     protected NaveDeAtaque navePilotada;
+    GreenfootImage picture = new GreenfootImage(getImage());
 
     /**
      * post: El Piloto se sube a la Nave
@@ -27,7 +28,7 @@ public abstract class PilotoBase extends ActorBase {
      */
     public void bajarse() {
         navePilotada = null;
-        actualizarImagen();
+        actualizarImagenApagado();
     }
 
     /**
@@ -37,13 +38,21 @@ public abstract class PilotoBase extends ActorBase {
     protected void actualizarImagen() {
         int tamCelda = getWorld().getCellSize();
         GreenfootImage image = getImage();
-        /*
-            if (navePilotada != null) {
-                image = new GreenfootImage("ghost.png");
-            } else {
-                image = new GreenfootImage("pilot.png");
+        MyGreenfootImage nuevaImagen=new MyGreenfootImage(image) {
+            public void configurar() {
+                if(navePilotada != null) {
+                    highlight();
+                    setTransparency(150);
+                }
             }
-        */
+        };
+        nuevaImagen.scale((int) (tamCelda * ESCALA_X), (int) (tamCelda * ESCALA_Y));
+        setImage(nuevaImagen);
+    }
+    
+    protected void actualizarImagenApagado() {
+        int tamCelda = getWorld().getCellSize();
+        GreenfootImage image = picture;
         image.scale((int) (tamCelda * ESCALA_X), (int) (tamCelda * ESCALA_Y));
         setImage(image);
     }
