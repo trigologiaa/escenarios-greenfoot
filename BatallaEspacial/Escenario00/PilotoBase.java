@@ -28,32 +28,30 @@ public abstract class PilotoBase extends ActorBase {
      */
     public void bajarse() {
         navePilotada = null;
-        actualizarImagenApagado();
+        actualizarImagen();
     }
 
     /**
-     * Actualiza la imagen del Piloto, de acuerdo a su estado
+     * Actualiza la imagen del Piloto, de acuerdo a su estado (con nave o sin nave)
      */
     @Override
     protected void actualizarImagen() {
         int tamCelda = getWorld().getCellSize();
-        GreenfootImage image = getImage();
-        MyGreenfootImage nuevaImagen=new MyGreenfootImage(image) {
-            public void configurar() {
-                if(navePilotada != null) {
+        GreenfootImage image;
+        if (navePilotada != null) {
+            image = getImage();
+            MyGreenfootImage nuevaImagen = new MyGreenfootImage(image) {
+                public void configurar() {
                     highlight();
                     setTransparency(150);
                 }
-            }
-        };
-        nuevaImagen.scale((int) (tamCelda * ESCALA_X), (int) (tamCelda * ESCALA_Y));
-        setImage(nuevaImagen);
-    }
-    
-    protected void actualizarImagenApagado() {
-        int tamCelda = getWorld().getCellSize();
-        GreenfootImage image = picture;
-        image.scale((int) (tamCelda * ESCALA_X), (int) (tamCelda * ESCALA_Y));
-        setImage(image);
+            };
+            nuevaImagen.scale((int) (tamCelda * ESCALA_X), (int) (tamCelda * ESCALA_Y));
+            setImage(nuevaImagen);
+        } else {
+            image = picture;
+            image.scale((int) (tamCelda * ESCALA_X), (int) (tamCelda * ESCALA_Y));
+            setImage(image);
+        }
     }
 }
